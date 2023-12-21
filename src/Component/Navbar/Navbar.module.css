@@ -1,0 +1,19 @@
+
+
+.navbarContainer {
+  position: fixed; /* Barre de navigation fixée */
+  right: 0; 
+  margin-right : 15em;
+  justify-content: center; 
+  width: 28%; /* Occupe toute la largeur de la fenêtre */
+  background-color: #191919; /* Fond noir pour la barre de navigation */
+  color: #F5F0EC; /* Couleur du texte */
+  padding: 20px; /* Ajout d'un espacement intérieur */
+  z-index: 1000; /* Ajuste la superposition de la barre de navigation */
+}
+
+.title {
+  font-family: 'Martian Mono', sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+}
