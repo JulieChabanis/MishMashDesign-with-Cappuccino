@@ -3,20 +3,20 @@
   z-index: 1000;
   position: fixed;
   right: 0;
-  margin-right : 15em;
+  margin-right : 8em;
   top: 7em;
 
   @media screen and (max-width: 1650px) {
     margin-right : 1rem;
     margin-top : -0.5rem;
-    font-size: 0.6em;
+    font-size: 1em;
   }
 }
 
 .navbarContainer {
   position: fixed; 
   right: 0; 
-  margin-right : 15em;
+  margin-right : 8em;
   justify-content: center; 
   width: 28%; 
   background-color: #191919; 
@@ -28,7 +28,7 @@
   @media screen and (max-width: 1650px) {
     width: 60%; 
     margin-right : 0rem;
-    font-size: 0.5em;
+    font-size: 1em;
     padding : 12px;
   }
 }
@@ -56,13 +56,13 @@
   font-family: 'Cormorant Garamond', sans-serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 2.7em;
+  font-size: 1.3em;
   transition: background-color 0.3s;
   padding: 10px; 
 }
 
 .link:hover {
-  border: 2px solid #191919;
+  border: 1px solid #191919;
   background-color: #F5F0EC;
   border-radius: 10px;
   padding: 9px;
