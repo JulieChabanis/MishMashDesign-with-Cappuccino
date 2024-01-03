@@ -6,6 +6,7 @@ const Templates = () => {
     <>
       {Content.map((item) => (
         <img 
+          loading="lazy"
           key={item.id}
           src={item.image}
           alt={`Template ${item.id}`}
