@@ -4,7 +4,7 @@
   position: fixed;
   right: 0;
   margin-right : 8em;
-  top: 7em;
+  top: 5em;
 
   @media screen and (max-width: 1650px) {
     margin-right : 1rem;
